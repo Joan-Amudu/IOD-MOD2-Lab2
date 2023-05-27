@@ -5,14 +5,60 @@
       /* I. Selectors */
       /* Put styles for sections 1.1, 1.2, 1.3 and 1.4 here */
 
+      article {
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid black;
+      }
+      .style-me1 {
+        color: red;
+      }
+      #style-me2 {
+        color: blue;
+      }
+      
+      p.style-me1#style-me2{
+        color: purple;
+      }
+
 
       /* Put styles for sections 1.2, 1.3, 1.4 here */
+      .my-descendants-are-styled p{
+        background: red;
+      }
+      .my-children-are-styled p{
+        background: red;
+      }
 
 
       /* II. Box model and common properties */
+      .box {
+        margin: 20px 0px;
+        width: 50vw;
+        height: 50vh;
+        border: 10px solid orange;
+        overflow: hidden;
+        outline: 10px;
+        border-radius: 50%;
+        background: url(/assets/images/img1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;        
+        }
 
 
       /* III. Position */
+      .position-absolute {
+        position: absolute;
+        z-index: -1;
+      }
+      .position-relative {
+        position: relative;
+        top: 0px;
+        left: 20px;
+        bottom: 10px;
+        right: 5px;
+      }
 
 
       /* IV. Styling text */
